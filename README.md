@@ -5,4 +5,5 @@ The pdf would be kept password protected till the machine is retired. I would be
 Machines done so far:
 <ol>
 <li>Knife</li>
+</li>Cap</li>
 </ol>
