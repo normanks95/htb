@@ -1,2 +1,0 @@
-1. Used RCE vulnerability in the programming language.
-2. Upload of the root access script using python http server on attacking machine and wget on target machine.
