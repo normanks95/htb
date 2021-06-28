@@ -1,0 +1,4 @@
+# Nmap 7.91 scan initiated Sat Jun 12 14:27:25 2021 as: nmap -sV -sC -oG nmap.out 10.10.10.245
+Host: 10.10.10.245 ()	Status: Up
+Host: 10.10.10.245 ()	Ports: 21/open/tcp//ftp//vsftpd 3.0.3/, 22/open/tcp//ssh//OpenSSH 8.2p1 Ubuntu 4ubuntu0.2 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//gunicorn/	Ignored State: closed (997)
+# Nmap done at Sat Jun 12 14:29:39 2021 -- 1 IP address (1 host up) scanned in 133.88 seconds
