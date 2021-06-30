@@ -16,4 +16,12 @@ I have included the link to the blogs for which I required to check the walkthro
     <td>Cap</td>
     <td></td>
   </tr>
+  <tr>
+    <td>THM-Cyborg</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>THM-PickleRick</td>
+    <td></td>
+  </tr>
 </table>
