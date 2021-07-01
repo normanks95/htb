@@ -3,25 +3,11 @@ This repository contains the writeup of the machines I have done on hackthebox. 
 The pdf would be kept password protected till the machine is retired. I would be adding lessons learned which would not be password protected.
 I have included the link to the blogs for which I required to check the walkthrough.
 
-<table>
-<tr>
-  <th>Machines done by my own</th>
-  <th>Machines for which I required walkthrough</th>
-</tr>
-<tr>
-  <td>Knife</td>
-  <td>Ophiuchi</td>
-  </tr>
-  <tr>
-    <td>Cap</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>THM-Cyborg</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>THM-PickleRick</td>
-    <td></td>
-  </tr>
-</table>
+
+Machine by myself | Machine for which I required walkthrough
+------------ | -------------
+HTB Knife | HTB Ophiuchi
+HTB Cap |
+THM cyborg |
+THM PickleRick|
+THM tomghost |
