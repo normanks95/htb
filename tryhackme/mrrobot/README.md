@@ -3,7 +3,7 @@
 #### Enumeration
 1. After running nmap, we were able to see 3 ports: 22 (ssh-closed), 80 (http), 443 (https)
 ![nmap output](./resources/nmap_output.png)
-2. We also ran dirb and got a list of available directories
+2. We also ran dirb and got a list of available directories                                
 ![dirb output](./resources/dirb_output.png)
 
 #### Getting Foothold
@@ -17,28 +17,32 @@ The steps are as follows:
     1. Go to Appearance/Editor in the wordpress dashboard.
     2. We then change the php script in 404.php to the reverse shell script. We used the reverse shell by Penetstmonkey and changed the ip address to our attacking
   machine. We also changed port to 4242.
-  ![reverseshell](./resources/reverseshell.png)
     3. We start listening on our attacking machine on port 4242.
     4. Now we hit the 404.php from /wp-content/themes/twentyfifteen/404.php to get the reverse shell.
-  ![getting reverse shell](./resources/rev.png)  
+  ![getting reverse shell](./resources/404.png)  
 
 #### Flag 1
 1. On checking robots.txt, we see that we can access key-1-of-3.txt
-![robots.txt](./resources/robots)
+![robots.txt](./resources/robots.png)
 2. We then access the file to get the first key
-![first key](./resources/first_key.png)
       
 #### Switching users
 1. After getting the shell on our victim machine, we see that there is a file password.raw-md5 which is readable.
-2. We pass this file through hashcat to get the password for the higher privilege user.
+![reverse shell](./resources/rev.png)
+3. We pass this file through hashcat to get the password for the higher privilege user.
  
 #### Flag 2
 1. Now that we have switched to the other user, we can read the second flag.
+![2nd flag](./resources/rev.png)
 
 #### Flag 3
-1. We found that nmap has the sticky bit set:
+1. We found that nmap has the sticky bit set:                                              
 ![sticky bit](./resources/sticky.png)
 2. We were able to get the root access with following steps:
   1. start nmap in interactive mode
   2. When we check id, we see that while the id!=0, the euid is 0.
   3. We can start a shell using !sh and get the final flag!
+  ![nmap privilege escalation](./resources/nmap_priv_esc.png)
+  
+  
+ 
