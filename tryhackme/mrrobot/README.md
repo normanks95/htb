@@ -34,7 +34,6 @@ The steps are as follows:
  
 #### Flag 2
 1. Now that we have switched to the other user, we can read the second flag.                                  
-![2nd flag](./resources/key.png)
 
 #### Flag 3
 1. We found that nmap has the sticky bit set:                                              
