@@ -39,9 +39,9 @@ The steps are as follows:
 1. We found that nmap has the sticky bit set:                                              
 ![sticky bit](./resources/sticky.png)
 2. We were able to get the root access with following steps:
-  1. start nmap in interactive mode
-  2. When we check id, we see that while the id!=0, the euid is 0.
-  3. We can start a shell using !sh and get the final flag!
+     1. start nmap in interactive mode
+     2. When we check id, we see that while the id!=0, the euid is 0.
+     3. We can start a shell using !sh and get the final flag!
   ![nmap privilege escalation](./resources/nmap_priv_esc.png)
   
   
