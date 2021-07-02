@@ -29,11 +29,11 @@ The steps are as follows:
 #### Switching users
 1. After getting the shell on our victim machine, we see that there is a file password.raw-md5 which is readable.
 ![reverse shell](./resources/rev.png)
-![file contents](./resources/key/png)
+![file contents](./resources/key.png)
 3. We pass this file through hashcat to get the password for the higher privilege user.
  
 #### Flag 2
-1. Now that we have switched to the other user, we can read the second flag.
+1. Now that we have switched to the other user, we can read the second flag.                                  
 ![2nd flag](./resources/key.png)
 
 #### Flag 3
