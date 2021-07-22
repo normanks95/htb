@@ -1,0 +1,7 @@
+Machine by myself | Machine for which I required walkthrough
+------------ | -------------
+cyborg |
+PickleRick|
+tomghost |
+Mr Robot |
+
