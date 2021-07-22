@@ -18,7 +18,7 @@ As we have the password from ncrack, we can login to ssh:
 We were able to find the user.txt at /home/lin/Desktop
 #### **1. Checking sudo permission**
 On checking sudo permission granted to user, we see that the user can run tar using sudo. 
-![1459c8034ed6b7e5f1664c74fb460225.png](../_resources/df50b53ae02648269785ee79cd8799da.png)
+![1459c8034ed6b7e5f1664c74fb460225.png](./_resources/df50b53ae02648269785ee79cd8799da.png)
 #### **2. Post exploit**
 We use the [tar sudo exploit](https://www.hackingarticles.in/exploiting-wildcard-for-privilege-escalation/) here to set the sticky bit to bash.
 ![4f7409c0daf1fa472d20409a247c1496.png](./_resources/13800da2b97548f59c3aebc09b2c95b5.png)
